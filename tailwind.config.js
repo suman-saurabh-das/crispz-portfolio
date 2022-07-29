@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         Poppins: ['Poppins', "sans-serif"],
       },
+      backgroundImage: {
+        'ufo': "url('https://drive.google.com/uc?export=view&id=1zDMJ167lJj_IzwHVK37I_kuMng0oh9Qw')",
+      }
     },
     plugins: [],
   }
