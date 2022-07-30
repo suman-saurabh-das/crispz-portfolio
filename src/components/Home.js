@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <main className='font-Poppins'>
-      <section className='bg-black text-white font-Poppins px-8 md:px-28 lg:px-32 xl:px-40'>
+      <section className='bg-black text-white font-Poppins px-8 md:px-28 lg:px-32 xl:px-40 overflow-hidden'>
 
         <h1 className='font-bold text-3xl sm:text-6xl pt-20 pb-10 sm:pt-0'>crispz.eth()</h1>
         <div className='border-l-2 border-white pl-6 sm:flex justify-around'>
