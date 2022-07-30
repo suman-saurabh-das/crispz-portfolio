@@ -10,7 +10,7 @@ export default function Footer() {
             <div className='flex justify-center space-x-8 text-2xl'>
                 <a className='hover:text-blue-700' href="https://dribbble.com/crispzeth"><i class="fa-brands fa-dribbble"></i></a>
                 <a className='hover:text-blue-700' href="https://github.com/crspz"><i class="fa-brands fa-github"></i></a>
-                <a className='hover:text-blue-700' href="https://twitter.com/anoushk77/status/1553061919934017536?s=21&t=SAfDTfMkBRzwYubrtQuTyg"><i class="fa-brands fa-twitter"></i></a>
+                <a className='hover:text-blue-700' href="https://twitter.com/crispz0x?s=21&t=gM95iab5UFtZXxj91VLcJw"><i class="fa-brands fa-twitter"></i></a>
             </div>
         </div>
     )
