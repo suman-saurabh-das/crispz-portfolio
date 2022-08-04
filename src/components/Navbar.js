@@ -11,11 +11,13 @@ export default function Navbar() {
       visibility = 'true';
       primaryNav.classList.remove('translate-x-full');
       primaryNav.classList.add('translate-x-0');
+      document.body.style.overflow = "hidden";
     }
     function closeSideMenu() {
       visibility = 'false';
       primaryNav.classList.remove('translate-x-0');
       primaryNav.classList.add('translate-x-full');
+      document.body.style.overflow = "auto";
     }
 
     navToggle.addEventListener('click', () => {
@@ -33,7 +35,6 @@ export default function Navbar() {
     for (let i = 0; i < listItemArray.length; i++) {
       listItemArray[i].addEventListener('click', closeSideMenu)
     }
-
   }, []);
 
   return (
